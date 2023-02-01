@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>ChitChat</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./js/index.js" type="module" defer></script>
+  </head>
+  <body>
+    <h1>ChitChat</h1>
+
+    <section class="chatbox">
+      <div class="chatbox__window" data-js="chatbox-window"></div>
+    </section>
+    <section class="chat-input">
+      <form class="chat-input__form" data-js="chat-input-form">
+        <label class="label">
+          Enter name
+          <input type="text" data-js="username" name="username"
+        /></label>
+        <label class="label">
+          Enter message
+          <input type="text" data-js="chat-input" name="user-message"
+        /></label>
+        <button>Send</button>
+        <label class="label">
+          Enter room
+          <input type="text" data-js="room-input" name="room" /></label
+        ><button data-js="join-room-button">Join</button>
+      </form>
+    </section>
+  </body>
+</html>

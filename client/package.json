@@ -1,0 +1,22 @@
+{
+  "name": "chitchat",
+  "version": "0.0.0-unreleased",
+  "description": "Static HTML, CSS and JavaScript",
+  "main": "index.html",
+  "scripts": {
+    "lint": "npx eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "nf": {
+    "template": "html-css-js-static"
+  },
+  "private": true,
+  "devDependencies": {
+    "snowpack": "^3.8.8"
+  },
+  "dependencies": {
+    "socket.io-client": "^4.5.4"
+  }
+}
